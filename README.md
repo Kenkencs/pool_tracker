@@ -15,7 +15,7 @@
 ## 技术栈
 
 - Next.js App Router、React、TypeScript
-- Tailwind CSS、vinext、Vite
+- Tailwind CSS、Vercel
 - Supabase Auth、PostgreSQL、Row Level Security、Storage
 
 ## 本地运行
