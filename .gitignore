@@ -38,3 +38,42 @@ yarn-error.log*
 /.wrangler/
 /outputs/
 /work/
+
+# local editor and machine metadata
+/.idea/
+/.vscode/
+/.fleet/
+*.swp
+*.swo
+*.tmp
+*.log
+
+# local credentials and signing material
+.npmrc
+.yarnrc
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+credentials.json
+secrets.json
+
+# local Supabase state
+/supabase/.temp/
+/supabase/.branches/
+
+# private data and exports
+/data/
+/private/
+/secrets/
+/imports/
+/exports/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.backup
