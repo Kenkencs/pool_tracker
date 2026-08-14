@@ -1,0 +1,6 @@
+-- 为避免公开真实账号信息，管理员 UUID 不保存在仓库中。
+-- 请先在 Supabase Authentication 中创建用户，再在 SQL Editor 手动执行：
+--
+-- insert into public.profiles (id, role)
+-- values ('YOUR_AUTH_USER_UUID'::uuid, 'admin')
+-- on conflict (id) do update set role = 'admin';
